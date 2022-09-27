@@ -21,7 +21,7 @@ export const CurrencySelect = ({
       <Listbox value={selected} onChange={onChange}>
         <Listbox.Label className="text-sm font-medium">
           {label}:
-          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 text-left shadow-sm sm:text-sm outline-none focus:ring-2 focus:ring-opacity-75 border-2 border-gray-300 mt-1 dark:bg-gray-600 dark:text-white">
+          <Listbox.Button className="relative w-full cursor-default rounded-lg bg-white py-2 pl-3 text-left shadow-sm sm:text-sm outline-none focus:ring-2 focus:ring-opacity-75 border-2 h-9 border-gray-300 mt-1 dark:bg-gray-600 dark:text-white">
             <span className="pr-3" aria-hidden>
               {CURRENCIES[selected]?.emoji}
             </span>

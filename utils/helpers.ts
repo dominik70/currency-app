@@ -16,3 +16,10 @@ export const formatCurrency = (number: number) => {
 export const isDateAfter = (date1: Date | string, date2: Date | string) => {
   return new Date(date1) > new Date(date2);
 };
+
+export const getPointSize = (length: number) => {
+  if (length > 250) return 1.75;
+  if (length > 150) return 2;
+  if (length > 100) return 2.5;
+  return 3;
+};

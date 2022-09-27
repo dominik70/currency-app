@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 const NAV_PATHS = [
   { path: "/", name: "Conversion" },
   { path: "/charts", name: "Charts" },
-  { path: "/table", name: "Table" },
+  { path: "/all-curencies", name: "All curencies" },
 ];
 
 export const Navigation = () => {
