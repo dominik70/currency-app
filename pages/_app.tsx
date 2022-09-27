@@ -1,6 +1,8 @@
-import '../styles/tailwind.css';
-import Head from 'next/head';
-import type { AppProps } from 'next/app';
+import "../styles/tailwind.css";
+import Head from "next/head";
+import type { AppProps } from "next/app";
+import { Provider } from "react-redux";
+import { store } from "../redux/store";
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
@@ -8,7 +10,9 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Head>
         <title>Currency exchange rates</title>
       </Head>
-      <Component {...pageProps} />
+      <Provider store={store}>
+        <Component {...pageProps} />
+      </Provider>
     </>
   );
 };
