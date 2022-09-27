@@ -57,7 +57,7 @@ export const ThemeSwitcher = memo(() => {
         <button
           className={`${
             checked ? "bg-blue-600" : "bg-gray-300"
-          } transition duration-100 inline-flex h-7 w-14 items-center rounded-full absolute right-[5%] m-auto my-auto shadow-md top-4 sm:top-auto`}
+          } transition duration-100 inline-flex h-7 w-14 items-center rounded-full absolute right-[5%] m-auto my-auto shadow-md top-4 lg:top-auto`}
         >
           <span className="sr-only">
             Switch to {checked ? "light" : "dark"} theme
