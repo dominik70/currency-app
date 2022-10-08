@@ -1,5 +1,7 @@
 # Currency app
 
+![project image](https://i.imgur.com/u3WGyGG.jpg)
+
 ## Features
 
 - Converting currency exchange rates
